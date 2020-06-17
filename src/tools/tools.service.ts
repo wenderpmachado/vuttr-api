@@ -1,3 +1,4 @@
+import { ObjectID } from 'mongodb';
 import { isEmpty } from 'lodash';
 import { Injectable } from '@nestjs/common';
 import { InjectModel } from '@nestjs/mongoose';
@@ -14,6 +15,12 @@ export class ToolsService {
   }
 
   async create(tool: CreateToolDTO): Promise<ToolDocument> {
-    return this.toolModel.create(tool);
+    const createdTool = new this.toolModel(tool);
+    return createdTool.save();
+  }
+
+  async delete(id: string): Promise<boolean> {
+    await this.toolModel.findByIdAndRemove(id).exec();
+    return true;
   }
 }
