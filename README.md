@@ -32,6 +32,8 @@ For the construction of the API it was used:
 
 ```bash
 $ npm install
+# or
+$ yarn install
 ```
 
 ## Running the app
@@ -39,12 +41,18 @@ $ npm install
 ```bash
 # development
 $ npm run start
+# or
+$ yarn start
 
 # watch mode
 $ npm run start:dev
+# or
+$ yarn start:dev
 
 # production mode
 $ npm run start:prod
+# or
+$ yarn start:prod
 ```
 
 ## Test
@@ -52,12 +60,18 @@ $ npm run start:prod
 ```bash
 # unit tests
 $ npm run test
+# or
+$ yarn test
 
 # e2e tests
 $ npm run test:e2e
+# or
+$ yarn test:e2e
 
 # test coverage
 $ npm run test:cov
+# or
+$ yarn test:cov
 ```
 
 ## OpenAPI - Swagger
