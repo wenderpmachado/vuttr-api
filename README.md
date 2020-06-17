@@ -1,4 +1,4 @@
-<h1 align="center">VUTTR</h1>
+<h1 align="center">VUTTR - API</h1>
 
 [travis-image]: https://api.travis-ci.org/nestjs/nest.svg?branch=master
 [travis-url]: https://travis-ci.org/nestjs/nest
