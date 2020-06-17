@@ -66,4 +66,4 @@ The API documentation is located in the `/api` endpoint.
 
 > Ex: `http://localhost:3000/api/`
 
-<img src="./.github/images/open-api.jpg" alt="OpenAPI Screenshot" />
+<img src="./.github/images/open-api.png" alt="OpenAPI Screenshot" />
